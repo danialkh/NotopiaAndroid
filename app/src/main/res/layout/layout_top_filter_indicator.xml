@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorthemeBlue"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/remove_filters_indicator"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:fabCustomSize="30dp"
+            android:elevation="0dp"
+            app:elevation="0dp"
+            android:backgroundTint="@color/white"
+            app:borderWidth="0dp"
+            android:src="@drawable/vc_icon_reset"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"  />
+
+
+
+        <LinearLayout
+            android:id="@+id/mainLLIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/remove_filters_indicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="محصول :"/>
+
+                <TextView
+                    android:id="@+id/TVIndicatorMahsol"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:background="@drawable/vc_back_top_label_date"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="دستیار هوشمند"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ir_sans"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+
+                    android:text="دسته بندی :"/>
+
+                <TextView
+                    android:id="@+id/TVIndicatorCategory"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/ir_sans"
+                    android:background="@drawable/vc_back_top_label_date"
+
+                    android:text="همه"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_marginTop="6dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="تاریخ شروع :"/>
+
+                <TextView
+                    android:id="@+id/TVIndicatorStartDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:background="@drawable/vc_back_top_label_date"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="-"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ir_sans"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+
+                    android:text="تاریخ پایان :"/>
+
+                <TextView
+                    android:id="@+id/TVIndicatorEndDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:background="@drawable/vc_back_top_label_date"
+                    android:text="-"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:layout_marginTop="6dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="برچسب :"/>
+
+                <TextView
+                    android:id="@+id/TVIndicatorTag"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:background="@drawable/vc_back_top_label_date"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:text="-"/>
+
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ir_sans"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+
+                    android:text="تاریخ پایان :"/>
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/ir_sans"
+
+                    android:background="@drawable/vc_back_top_label_date"
+                    android:text="-"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

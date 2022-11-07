@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        android:elevation="0dp"
+        android:layout_gravity="center"
+        app:strokeWidth="1dp"
+        app:strokeColor="@color/colorGraykheiliKmarang"
+        android:layout_marginTop="16dp"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="top|left"
+            android:background="@android:color/transparent">
+
+            <ir.notopia.android.scanner.opennotescanner.views.SquareFrameLayout
+                android:id="@+id/colorSquare"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <ImageView
+                    android:id="@+id/attach_image"
+                    android:src="@drawable/icon_gallery"
+                    android:scaleType="fitCenter"
+                    android:padding="40dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"/>
+            </ir.notopia.android.scanner.opennotescanner.views.SquareFrameLayout>
+
+
+
+
+            <ImageView
+                android:id="@+id/IVBackDeleteAttach"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="8dp"
+                android:src="@drawable/vc_back_number_category"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_delete"
+                app:tint="@color/colorGray"
+                app:layout_constraintTop_toTopOf="@id/IVBackDeleteAttach"
+                app:layout_constraintBottom_toBottomOf="@id/IVBackDeleteAttach"
+                app:layout_constraintStart_toStartOf="@id/IVBackDeleteAttach"
+                app:layout_constraintEnd_toEndOf="@id/IVBackDeleteAttach"
+                />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

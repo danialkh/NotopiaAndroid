@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpScanActivity">
+
+        <ImageView
+            android:src="@drawable/back_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <ImageView
+        android:src="@drawable/back_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ImageView
+        android:id="@+id/img_back_topsheet"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_back_topsheet" />
+
+    <ImageView
+        android:id="@+id/line_topSheet"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_back_topsheet"
+        app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+    <ImageView
+        android:id="@+id/IVLogoText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vc_logo_text_notopia"
+        app:layout_constraintBottom_toBottomOf="@id/img_back_topsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_back_topsheet"
+        app:tint="@color/colorthemeBluePorang" />
+
+
+
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back_topsheet"
+        app:layout_constraintStart_toStartOf="@id/img_back_topsheet"
+        app:layout_constraintTop_toTopOf="@+id/img_back_topsheet"
+        app:srcCompat="@drawable/arrow_back" />
+
+
+            <TextView
+                android:id="@+id/HelpScanTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ir_sans"
+                android:text="راهنمای تصویر برداری"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_topSheet"/>
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/SignUpAnim"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="animScanHelp.json"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintTop_toBottomOf="@id/HelpScanTitle"
+                    app:layout_constraintBottom_toTopOf="@+id/LlHelpScan"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+
+    <LinearLayout
+        android:id="@+id/LlHelpScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/verficationHelpTitr"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ir_sans"
+            android:singleLine="false"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:textAlignment="center"
+            android:text="کاربر گرامی، برای غیرفعال نمودن آموزش نحوه تصویربرداری به منوی اپلیکیشن رفته و در بخش تنظیمات این کار را انجام دهید."
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BtnGotHelpScan"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            app:contentPaddingRight="80dp"
+            app:contentPaddingLeft="80dp"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:clickable="true"
+            android:elevation="0dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textAlignment="center"
+
+            app:cardBackgroundColor="@color/colorthemeBluePorang"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationSpiner"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="spiner.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/TVBtnVerfyUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ir_sans"
+                android:text="فهمیدم"
+                android:textColor="@color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

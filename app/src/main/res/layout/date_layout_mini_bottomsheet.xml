@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/date_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <!--    baste bashe height 84dp mishe-->
+
+
+
+
+    <LinearLayout
+        android:id="@+id/box_year"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/layout_top_date_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <ir.mirrajabi.persiancalendar.PersianCalendarView
+        android:id="@+id/filter_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/box_year"
+        android:layout_marginBottom="10dp"
+        app:pcv_colorBackground="@android:color/transparent"
+        app:pcv_colorDayName="#8C8C8C"
+        app:pcv_colorHoliday="#fa0323"
+        app:pcv_colorHolidaySelected="#fff"
+        app:pcv_colorNormalDay="#363738"
+        app:pcv_colorNormalDaySelected="#fff"
+        app:pcv_eventUnderlineColor="@android:color/transparent"
+        app:pcv_fontSize="15sp"
+        app:pcv_headersFontSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/box_year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

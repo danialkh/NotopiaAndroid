@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ctodobom:drag-select-recyclerview:0.3.4.ctodobom.sections@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cd5323018d26ac4eaf50ba2b3ef2792/jetified-drag-select-recyclerview-0.3.4.ctodobom.sections/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cd5323018d26ac4eaf50ba2b3ef2792/jetified-drag-select-recyclerview-0.3.4.ctodobom.sections/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cd5323018d26ac4eaf50ba2b3ef2792/jetified-drag-select-recyclerview-0.3.4.ctodobom.sections/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

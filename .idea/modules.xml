@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notopia_peyman.iml" filepath="$PROJECT_DIR$/.idea/modules/notopia_peyman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyAR/notopia_peyman.EasyAR.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyAR/notopia_peyman.EasyAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/notopia_peyman.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/notopia_peyman.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary310/notopia_peyman.openCVLibrary310.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary310/notopia_peyman.openCVLibrary310.iml" />
+    </modules>
+  </component>
+</project>

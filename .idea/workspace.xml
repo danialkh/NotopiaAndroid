@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="log" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66792dce-f5d2-4d22-99e6-e36d2ad57ac0" name="Default Changelist" comment="second">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\Users\Danial\Desktop\danial2.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mEu2sifdY4SigI3pK3dIt9I4TE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <property name="ApkExportedModule" value="notopia_peyman.app" />
+    <property name="BundleExportedModule" value="Android.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-06-03T12:54:24Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Danial\Desktop" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED" value="DrawerLayout" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerTabStrip.java_SELECTED" value="PagerTabStrip" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/com.github.aliab/Persian-Date-Picker-Dialog/1.5.2/768e343073d5085d0d97c79d239fc927fdb7b89a/Persian-Date-Picker-Dialog-1.5.2-sources.jar!/ir/hamsaa/persiandatepicker/PersianDatePicker.java_SELECTED" value="PersianDatePicker" />
+    <property name="android-custom-viewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/com.github.deano2390/MaterialShowcaseView/1.3.4/563fb34b0080071afda65b13ffb21112bfe003a2/MaterialShowcaseView-1.3.4-sources.jar!/uk/co/deanwild/materialshowcaseview/MaterialShowcaseView.java_SELECTED" value="MaterialShowcaseView" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/liveedgedetection/view/PolygonView.java_SELECTED" value="PolygonView" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/HUDCanvasView.java_SELECTED" value="HUDCanvasView" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/OpenNoteCameraView.java_SELECTED" value="OpenNoteCameraView" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/SquareFrameLayout.java_SELECTED" value="SquareFrameLayout" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/ui/CurvedBottomNavigationView.java_SELECTED" value="CurvedBottomNavigationView" />
+    <property name="android-custom-viewC:/Users/Danial/Desktop/effetive/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/HUDCanvasView.java_SELECTED" value="HUDCanvasView" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/view/ViewGroup.java_SELECTED" value="ViewGroup" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/widget/ImageView.java_SELECTED" value="ImageView" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="android-custom-viewC:/android-studio/sdk/sources/android-29/android/widget/Spinner.java_SELECTED" value="Spinner" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../android-studio/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.0.0/9ecd4ecb7da215ba4c5c3e00bf8d290dad6f2bc5/drawerlayout-1.0.0-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerTabStrip.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/com.github.aliab/Persian-Date-Picker-Dialog/1.5.2/768e343073d5085d0d97c79d239fc927fdb7b89a/Persian-Date-Picker-Dialog-1.5.2-sources.jar!/ir/hamsaa/persiandatepicker/PersianDatePicker.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/.gradle/caches/modules-2/files-2.1/com.github.deano2390/MaterialShowcaseView/1.3.4/563fb34b0080071afda65b13ffb21112bfe003a2/MaterialShowcaseView-1.3.4-sources.jar!/uk/co/deanwild/materialshowcaseview/MaterialShowcaseView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/liveedgedetection/view/PolygonView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/HUDCanvasView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/OpenNoteCameraView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/SquareFrameLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/Android/app/src/main/java/ir/notopia/android/ui/CurvedBottomNavigationView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Danial/Desktop/effetive/app/src/main/java/ir/notopia/android/scanner/opennotescanner/views/HUDCanvasView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/view/ViewGroup.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/widget/AdapterView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/widget/ImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/widget/LinearLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/android-studio/sdk/sources/android-29/android/widget/Spinner.java_selected" value="Custom views" />
+    <property name="outdated.bundled.kotlin.compiler" value="1.3.72-release-Studio4.1-5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.3147208" />
+    <property name="recommended.upgrade.last.time.stamp" value="1612297219143" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../1.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.15821132">
+      <recent name="ir.notopia.android" />
+      <recent name="ir.notopia.android.ar" />
+    </key>
+    <key name="android.template.936334123">
+      <recent name="ir.notopia.android" />
+      <recent name="ir.notopia.android.menu" />
+    </key>
+    <key name="android.template.-1089457021">
+      <recent name="ir.notopia.android.calender" />
+    </key>
+    <key name="android.template.-1807372389">
+      <recent name="ir.notopia.android.verification" />
+    </key>
+    <key name="android.template.-1421101999">
+      <recent name="ir.notopia.android.menu" />
+    </key>
+    <key name="android.template.2037072824">
+      <recent name="ir.notopia.android.verification" />
+    </key>
+    <key name="android.template.-289999255">
+      <recent name="ir.notopia.android" />
+    </key>
+    <key name="android.template.911950407">
+      <recent name="ir.notopia.android.user" />
+    </key>
+    <key name="android.template.-1717113635">
+      <recent name="ir.notopia.android.noton" />
+    </key>
+    <key name="android.template.-2096345198">
+      <recent name="ir.notopia.android.noton" />
+    </key>
+    <key name="android.template.-649067640">
+      <recent name="ir.notopia.android.noton" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ir.notopia.android.menu" />
+      <recent name="ir.notopia.android" />
+    </key>
+    <key name="android.template.147641432">
+      <recent name="ir.notopia.android.verification" />
+      <recent name="ir.notopia.android" />
+    </key>
+    <key name="android.template.1253716721">
+      <recent name="ir.notopia.android.verification" />
+    </key>
+    <key name="android.template.1070375912">
+      <recent name="ir.notopia.android" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.-1523326754">
+      <recent name="ir.notopia.android.note" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ir.notopia.android.ar" />
+      <recent name="ir.notopia.android.adapter" />
+      <recent name="ir.notopia.android.calender" />
+      <recent name="ir.notopia.android" />
+      <recent name="ir.notopia.android.database.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.notopia.android.database.entity" />
+      <recent name="ir.notopia.android.database.dao" />
+      <recent name="ir.notopia.android.profile" />
+    </key>
+    <key name="android.template.550058916">
+      <recent name="ir.notopia.android.verification" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\res\drawable" />
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\res\drawable-v21" />
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\res\layout" />
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\assets" />
+      <recent name="C:\Users\Danial\Desktop\Android\app\src\main\java\ir\notopia\android\ar" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ir.notopia.android.ar" />
+    </key>
+    <key name="android.template.1275449073">
+      <recent name="ir.notopia.android.menu" />
+    </key>
+    <key name="android.template.-482955473">
+      <recent name="ir.notopia.android.menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="notopia_peyman.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66792dce-f5d2-4d22-99e6-e36d2ad57ac0" name="Default Changelist" comment="" />
+      <created>1609070867928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609070867928</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1667858235737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667858235738</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <created>1667858469851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667858469851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1666431494068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1666431494068" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1665271125860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1665271125860" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1663616854096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1663616854096" />
+    <state x="489" y="132" key="AndroidCreateXmlResourceDialog" timestamp="1667506981395">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="132" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1667506981395" />
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1667859538686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1667859538686" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1667050119066">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1667050119066" />
+    <state x="544" y="261" key="Github.ShareDialog" timestamp="1667859559751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="544" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1667859559751" />
+    <state width="1323" height="252" key="GridCell.Tab.0.bottom" timestamp="1667569563599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="252" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1667569563599" />
+    <state width="1323" height="252" key="GridCell.Tab.0.center" timestamp="1667569563597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="252" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1667569563597" />
+    <state width="1323" height="252" key="GridCell.Tab.0.left" timestamp="1667569563596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="252" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1667569563596" />
+    <state width="1323" height="252" key="GridCell.Tab.0.right" timestamp="1667569563598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="252" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1667569563598" />
+    <state x="377" y="66" key="RollbackChangesDialog" timestamp="1667858347711">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="377" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1667858347711" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1667858047982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1667858047982" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1667858270310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1667858270310" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1666431340386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1666431340386" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/notopia/arserver/ar/HelloAR.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/notopia/android/ar/DownloadArActivity.java</url>
+          <line>374</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-field">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/notopia/arserver/scanner/opennotescanner/views/MyOmrTask.java</url>
+          <line>27</line>
+          <properties field="mImage" class="ir.notopia.arserver.scanner.opennotescanner.views.MyOmrTask" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/notopia/arserver/database/AppRepository.java</url>
+          <line>236</line>
+          <properties class="ir.notopia.arserver.database.AppRepository">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

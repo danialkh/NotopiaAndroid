@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".verification.EnterNumberActivity">
+
+    <ImageView
+        android:src="@drawable/back_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="50dp"
+        android:paddingStart="50dp"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <TextView
+            android:id="@+id/verificationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ir_sans"
+            android:text="دریافت کد"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/SignUpAnim"
+            android:layout_marginTop="10dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animLogoMotion.json"
+            app:layout_constraintTop_toBottomOf="@id/verificationText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/verficationHelpTitr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/ir_sans"
+            android:text="اعتبارسنجی پیامکی"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/SignUpAnim" />
+
+        <TextView
+            android:id="@+id/verficationHelpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/ir_sans"
+            android:lineSpacingExtra="24sp"
+            android:lineSpacingMultiplier="0"
+            android:text="ما یک کد یکبار مصرف به شماره شما پیامک میکنیم و آن را در مرحله بعد وارد کنید"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/verficationHelpTitr"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:fontFamily="@font/ir_sans"
+                android:text="+98"
+                android:textSize="16sp"
+
+                />
+
+            <EditText
+
+                android:id="@+id/ETVerficationCode"
+                style="@style/enter_number_style"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/ir_sans"
+                android:maxLength="10"
+                android:textDirection="ltr"
+                android:layout_gravity="center"
+                android:inputType="phone"
+                android:letterSpacing="0.5"
+                android:padding="0dp"
+                android:paddingStart="15dp"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:gravity="center"
+            >
+
+            <CheckBox
+                android:id="@+id/CheckBoxTerms"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:theme="@android:style/Theme.Holo.Light"
+                />
+
+            <TextView
+                android:id="@+id/showTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/ir_sans"
+                android:textSize="14sp"
+                android:layout_marginStart="8dp"
+                android:textAlignment="textStart"
+                android:singleLine="false"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/EnterNumberState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/ir_sans"
+                android:text="شماره تلفن خود را وارد کنید"
+                android:textAlignment="center"
+                android:textSize="14sp"
+
+                />
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BTVerfyUser"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:animateLayoutChanges="true"
+            android:clickable="true"
+            android:elevation="0dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textAlignment="center"
+
+            app:cardBackgroundColor="@color/colorthemeBluePorang"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationSpiner"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="spiner.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/TVBtnVerfyUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ir_sans"
+                android:text="تایید و ادامه"
+                android:textColor="@color/white" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

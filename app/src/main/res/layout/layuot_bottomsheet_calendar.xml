@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@android:color/transparent"
+    tools:context=".MainActivity"
+    android:id="@+id/view_calendar">
+
+
+    <ImageView
+        android:id="@+id/img_back_bottomShape"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+
+
+        app:srcCompat="@drawable/vc_back_bottomsheet" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/box_year"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorthemeBluePorang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/layout_main_top_date_select"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ir.mirrajabi.persiancalendar.PersianCalendarView
+        android:id="@+id/main_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box_year"
+        android:layout_marginBottom="10dp"
+        app:pcv_colorBackground="@android:color/transparent"
+        app:pcv_colorDayName="#8C8C8C"
+        app:pcv_colorHoliday="#fa0323"
+        app:pcv_colorHolidaySelected="#fff"
+        app:pcv_colorNormalDay="#363738"
+        app:pcv_colorNormalDaySelected="#fff"
+        app:pcv_eventUnderlineColor="@android:color/transparent"
+        app:pcv_fontSize="15sp"
+        app:pcv_headersFontSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/box_year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

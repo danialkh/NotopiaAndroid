@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.CategoryActivity">
+
+
+    <ImageView
+        android:id="@+id/img_back_topsheet"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_back_topsheet" />
+
+    <ImageView
+        android:id="@+id/line_topSheet"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_back_topsheet"
+        app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+    <ImageView
+        android:id="@+id/IVLogoText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vc_logo_text_notopia"
+        app:layout_constraintBottom_toBottomOf="@id/img_back_topsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_back_topsheet"
+        app:tint="@color/colorthemeBluePorang" />
+
+
+
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back_topsheet"
+        app:layout_constraintStart_toStartOf="@id/img_back_topsheet"
+        app:layout_constraintTop_toTopOf="@+id/img_back_topsheet"
+        app:srcCompat="@drawable/arrow_back" />
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        app:layout_constraintTop_toBottomOf="@id/line_topSheet"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <include
+                android:id="@+id/LYEditCategory1"
+                layout="@layout/layout_edit_category"/>
+
+            <include
+                android:id="@+id/LYEditCategory2"
+                layout="@layout/layout_edit_category"/>
+
+            <include
+                android:id="@+id/LYEditCategory3"
+                layout="@layout/layout_edit_category"/>
+
+            <include
+                android:id="@+id/LYEditCategory4"
+                layout="@layout/layout_edit_category"/>
+
+            <include
+                android:id="@+id/LYEditCategory5"
+                layout="@layout/layout_edit_category"/>
+
+            <include
+                android:id="@+id/LYEditCategory6"
+                layout="@layout/layout_edit_category"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

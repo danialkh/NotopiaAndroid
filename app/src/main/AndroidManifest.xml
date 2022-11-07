@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.notopia.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT" />
+            <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+            <data android:mimeType="*/*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK" />
+            <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+            <data android:mimeType="*/*" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="ir.notopia.android.calender.CalendarActivity"/>
+        <activity android:name="ir.notopia.android.noton.AttachActivity" />
+        <activity android:name="ir.notopia.android.menu.TagActivity" />
+        <activity android:name="ir.notopia.android.noton.SearchNotonActivity" />
+        <activity android:name="ir.notopia.android.noton.NotonActivity" />
+        <activity android:name="ir.notopia.android.menu.SupportActivity" />
+        <activity
+            android:name="ir.notopia.android.HelpScanActivity"
+            android:noHistory="true" />
+        <activity android:name="ir.notopia.android.menu.SettingActivity" />
+        <activity android:name="ir.notopia.android.menu.CategoryActivity" />
+        <activity android:name="ir.notopia.android.menu.EditProfileActivity" />
+        <activity android:name="ir.notopia.android.ar.DownloadArActivity" />
+        <activity android:name="ir.notopia.android.verification.ReadTermsActivity" />
+        <activity android:name="ir.notopia.android.MainActivity" />
+        <activity android:name="ir.notopia.android.verification.VeryfiMahsolActivity" />
+        <activity android:name="ir.notopia.android.verification.VerfyKhashdarActivity" />
+        <activity android:name="ir.notopia.android.ShelfsActivity" />
+        <activity android:name="ir.notopia.android.verification.SignInActivity" />
+        <activity android:name="ir.notopia.android.verification.SignUpActivity" />
+        <activity android:name="ir.notopia.android.verification.EnterNumberActivity" />
+        <activity android:name="ir.notopia.android.menu.AboutActivity" />
+        <activity android:name="ir.notopia.android.ar.ARActivity" />
+        <activity android:name="ir.notopia.android.ar.WebViewActivity" />
+
+        <meta-data
+            android:name="com.pushpole.sdk.token"
+            android:value="PUSHPOLE_976820375651" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.myprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="ir.notopia.android.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.notopia.android.ui.ToolbarCaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="ir.notopia.android.scanner.opennotescanner.OpenNoteScannerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_open_note_scanner"
+            android:layoutDirection="ltr"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.media.action.IMAGE_CAPTURE" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="ir.notopia.android.scanner.opennotescanner.GalleryGridActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_gallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.notopia.android.scanner.opennotescanner.FullScreenViewActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="ir.notopia.android.scanner.opennotescanner.SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme" /> <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="${applicationId}.fileprovider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/provider_paths"/> -->
+        <!-- </provider> -->
+        <activity android:name="ir.notopia.android.scanner.ScannerActivity" />
+
+        <service
+            android:name="ir.notopia.android.services.NotificationJobService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="ir.notopia.android.services.NotificationService"
+            android:exported="false" />
+        <service
+            android:name="ir.notopia.android.services.AIService"
+            android:exported="false" />
+    </application>
+
+</manifest>

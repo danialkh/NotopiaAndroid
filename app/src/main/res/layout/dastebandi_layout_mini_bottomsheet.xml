@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <!--    baste bashe height 84dp mishe-->
+
+    <ImageView
+        android:id="@+id/shadow_item1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category1"
+        app:layout_constraintStart_toStartOf="@id/back_category1"
+        app:layout_constraintTop_toTopOf="@id/back_category1"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/back_category2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+
+    <ImageView
+        android:id="@+id/icon_item1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category1"
+        app:layout_constraintEnd_toEndOf="@id/back_category1"
+        app:layout_constraintStart_toStartOf="@id/back_category1"
+        app:layout_constraintTop_toTopOf="@id/back_category1"
+        app:srcCompat="@drawable/vc_icon_daste6" />
+
+
+    <ImageView
+        android:id="@+id/shadow_item2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/back_category2"
+        app:layout_constraintTop_toTopOf="@id/back_category2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_category1"
+        app:layout_constraintEnd_toStartOf="@+id/back_category3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_category1"
+        app:layout_constraintTop_toTopOf="@+id/back_category1"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+
+    <ImageView
+        android:id="@+id/icon_item2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category2"
+        app:layout_constraintEnd_toEndOf="@id/back_category2"
+        app:layout_constraintStart_toStartOf="@id/back_category2"
+        app:layout_constraintTop_toTopOf="@id/back_category2"
+        app:srcCompat="@drawable/vc_icon_daste5" />
+
+
+    <ImageView
+        android:id="@+id/shadow_item3"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/back_category3"
+        app:layout_constraintTop_toTopOf="@id/back_category3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category3"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_category2"
+        app:layout_constraintEnd_toStartOf="@+id/back_category4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_category2"
+        app:layout_constraintTop_toTopOf="@+id/back_category2"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+
+    <ImageView
+        android:id="@+id/icon_item3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category3"
+        app:layout_constraintEnd_toEndOf="@id/back_category3"
+        app:layout_constraintStart_toStartOf="@id/back_category3"
+        app:layout_constraintTop_toTopOf="@id/back_category3"
+        app:srcCompat="@drawable/vc_icon_daste4" />
+
+
+    <ImageView
+        android:id="@+id/shadow_item4"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category4"
+        app:layout_constraintStart_toStartOf="@id/back_category4"
+        app:layout_constraintTop_toTopOf="@id/back_category4"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category4"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_category3"
+        app:layout_constraintEnd_toStartOf="@+id/back_category5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_category3"
+        app:layout_constraintTop_toTopOf="@+id/back_category3"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+
+    <ImageView
+        android:id="@+id/icon_item4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category4"
+        app:layout_constraintEnd_toEndOf="@id/back_category4"
+        app:layout_constraintStart_toStartOf="@id/back_category4"
+        app:layout_constraintTop_toTopOf="@id/back_category4"
+        app:srcCompat="@drawable/vc_icon_daste3" />
+
+    <ImageView
+        android:id="@+id/shadow_item5"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/back_category5"
+        app:layout_constraintTop_toTopOf="@id/back_category5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category5"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_category4"
+        app:layout_constraintEnd_toStartOf="@+id/back_category6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_category4"
+        app:layout_constraintTop_toTopOf="@+id/back_category4"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+
+    <ImageView
+        android:id="@+id/icon_item5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category5"
+        app:layout_constraintEnd_toEndOf="@id/back_category5"
+        app:layout_constraintStart_toStartOf="@id/back_category5"
+        app:layout_constraintTop_toTopOf="@id/back_category5"
+        app:srcCompat="@drawable/vc_icon_daste2" />
+
+
+    <ImageView
+        android:id="@+id/shadow_item6"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="2px"
+        app:layout_constraintEnd_toEndOf="@id/back_category6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/back_category6"
+        app:layout_constraintTop_toTopOf="@id/back_category6"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vc_shadow_item_pageview" />
+
+    <ImageView
+        android:id="@+id/back_category6"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back_category5"
+        app:layout_constraintEnd_toStartOf="@+id/seprator_add_dastebandi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/back_category5"
+        app:layout_constraintTop_toTopOf="@+id/back_category5"
+        app:srcCompat="@drawable/vc_back_dastebandi_item" />
+    />
+
+    <ImageView
+        android:id="@+id/icon_item6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/back_category6"
+        app:layout_constraintEnd_toEndOf="@id/back_category6"
+        app:layout_constraintStart_toStartOf="@id/back_category6"
+        app:layout_constraintTop_toTopOf="@id/back_category6"
+        app:srcCompat="@drawable/vc_icon_daste1" />
+
+
+
+    <TextView
+        android:id="@+id/LabelDaste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/LabelDaste2"
+        app:layout_constraintEnd_toEndOf="@+id/back_category6"
+        app:layout_constraintStart_toStartOf="@+id/back_category6"
+        app:layout_constraintTop_toTopOf="@+id/LabelDaste2" />
+
+    <TextView
+        android:id="@+id/LabelDaste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 2"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/LabelDaste3"
+        app:layout_constraintEnd_toEndOf="@+id/back_category5"
+        app:layout_constraintStart_toStartOf="@+id/back_category5"
+        app:layout_constraintTop_toTopOf="@+id/LabelDaste3" />
+
+
+    <TextView
+        android:id="@+id/LabelDaste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 3"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/LabelDaste4"
+        app:layout_constraintEnd_toEndOf="@+id/back_category4"
+        app:layout_constraintStart_toStartOf="@+id/back_category4"
+        app:layout_constraintTop_toTopOf="@+id/LabelDaste4" />
+
+
+    <TextView
+        android:id="@+id/LabelDaste4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 4"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/LabelDaste5"
+        app:layout_constraintEnd_toEndOf="@+id/back_category3"
+        app:layout_constraintStart_toStartOf="@+id/back_category3"
+        app:layout_constraintTop_toTopOf="@+id/LabelDaste5" />
+
+
+    <TextView
+        android:id="@+id/LabelDaste5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 5"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintBottom_toBottomOf="@+id/LabelDaste6"
+        app:layout_constraintEnd_toEndOf="@+id/back_category2"
+        app:layout_constraintStart_toStartOf="@+id/back_category2"
+        app:layout_constraintTop_toTopOf="@+id/LabelDaste6" />
+
+    <TextView
+        android:id="@+id/LabelDaste6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="دسته 6"
+        android:textColor="@color/colorGray"
+        android:textSize="12sp"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/back_category1"
+        app:layout_constraintStart_toStartOf="@+id/back_category1"
+        app:layout_constraintTop_toBottomOf="@+id/back_category1" />
+
+
+    <TextView
+        android:id="@+id/LabelTedadDaste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste1"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste1"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste1" />
+
+    <TextView
+        android:id="@+id/LabelTedadDaste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste2"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste2"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste2" />
+
+
+    <TextView
+        android:id="@+id/LabelTedadDaste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste3"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste3"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste3" />
+
+
+    <TextView
+        android:id="@+id/LabelTedadDaste4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste4"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste4"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste4" />
+
+    <TextView
+        android:id="@+id/LabelTedadDaste5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste5"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste5"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste5" />
+
+    <TextView
+        android:id="@+id/LabelTedadDaste6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دسته 1"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:textColor="@color/colorGray"
+        android:fontFamily="@font/ir_sans"
+        app:layout_constraintEnd_toEndOf="@+id/LabelDaste6"
+        app:layout_constraintStart_toStartOf="@+id/LabelDaste6"
+        app:layout_constraintTop_toBottomOf="@+id/LabelDaste6" />
+
+
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/progress_linearLayout_dastebandi"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/seprator_add_dastebandi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seprator_add_dastebandi"
+
+        >
+
+        <ImageView
+            android:id="@+id/dastebandi_add_icon"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            app:srcCompat="@drawable/icon_add" />
+
+
+        <ImageView
+            android:id="@+id/dastebandi_edit_icon"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/icon_edit" />
+
+
+        <ImageView
+            android:id="@+id/dastebandi_remove_icon"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/remove_icon" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/seprator_add_dastebandi"
+        android:layout_width="1px"
+        android:layout_height="65dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/progress_linearLayout_dastebandi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_img_line_seprator" />
+</androidx.constraintlayout.widget.ConstraintLayout>

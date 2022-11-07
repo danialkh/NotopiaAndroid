@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calender.CalendarActivity">
+
+
+    <include
+        android:id="@+id/navTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_top_bar_activities"
+        android:layout_gravity="top|start"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/box_year"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorthemeBluePorang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textHelp">
+
+        <include
+            layout="@layout/layout_main_top_date_select"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/navTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="با نگه داشتن روی روز تقویم میتوانید نوتون ایجاد کنید"
+        android:fontFamily="@font/ir_sans"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="8dp"
+        />
+
+    <ir.mirrajabi.persiancalendar.PersianCalendarView
+        android:id="@+id/main_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/box_year"
+        android:layout_marginBottom="10dp"
+        app:pcv_colorBackground="@android:color/transparent"
+        app:pcv_colorDayName="#8C8C8C"
+        app:pcv_colorHoliday="#fa0323"
+        app:pcv_colorHolidaySelected="#fff"
+        app:pcv_colorNormalDay="#363738"
+        app:pcv_colorNormalDaySelected="#fff"
+        app:pcv_eventUnderlineColor="@android:color/transparent"
+        app:pcv_fontSize="15sp"
+        app:pcv_headersFontSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/box_year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:fontFamily="@font/ir_sans"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="250dp"
+        android:text="مناسب های جاری"
+        app:layout_constraintTop_toBottomOf="@+id/box_year"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+
+
+
+
+    <com.afollestad.dragselectrecyclerview.DragSelectRecyclerView
+        android:id="@+id/recyclerviewEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

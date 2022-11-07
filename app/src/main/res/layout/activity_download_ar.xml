@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ar.DownloadArActivity">
+
+
+        <ImageView
+            android:src="@drawable/back_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top|center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+
+            <TextView
+                android:id="@+id/verificationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/ir_sans"
+                android:text="واقعیت افزوده"
+                android:textStyle="bold"
+                />
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/SignUpAnim"
+                android:layout_marginTop="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="animArDownload.json"
+                app:layout_constraintTop_toBottomOf="@id/verificationText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+
+            <TextView
+                android:id="@+id/verficationHelpTitr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="دانلود محتوا"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ir_sans"
+                app:layout_constraintTop_toBottomOf="@id/SignUpAnim"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/downloadHelpText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:fontFamily="@font/ir_sans"
+                android:lineSpacingExtra="24sp"
+                android:lineSpacingMultiplier="0"
+                android:text="کاربر گرامی لطفاً تا انتهای بارگیری فایل ها برنامه ی نوتوپیا را نبندید. در غیر اینصورت پس از ورود مجدد به این صفحه، بارگیری از سر گرفته خواهد شد."
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/verficationHelpTitr"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/verficationHelpText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+
+                <androidx.core.widget.ContentLoadingProgressBar
+                    android:id="@+id/progress_ar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:progressTint="@color/colorthemeBluePorang"
+                    android:progressBackgroundTint="@color/colorGrayKmarang"
+                    android:max="100"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="end"
+                    android:layoutDirection="rtl"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="end"
+                        android:layoutDirection="rtl"
+                        android:layout_weight="1"
+                        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ir_sans"
+
+                        android:textSize="12dp"
+                        android:text="تعداد : "/>
+
+                    <TextView
+                        android:id="@+id/TVArTedadKol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ir_sans"
+                        android:textSize="12dp"
+                        android:text="-"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ir_sans"
+                        android:textSize="12dp"
+                        android:text=" / "/>
+
+                    <TextView
+                        android:id="@+id/TVArTedadDownloaded"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ir_sans"
+                        android:textSize="12dp"
+                        android:text="-"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layoutDirection="ltr"
+                        >
+
+
+
+
+                        <TextView
+                            android:id="@+id/TVSizeDownload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ir_sans"
+                            android:textSize="12dp"
+                            android:text="-"/>
+
+                        <TextView
+                            android:id="@+id/TVSizeTypeDownload"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ir_sans"
+                            android:textSize="12dp"
+                            android:text=""/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ir_sans"
+                            android:textSize="12dp"
+                            android:text="حجم فایل: "/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="start"
+                        android:layoutDirection="ltr"
+                        android:layout_weight="1"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/TVPercentDownload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ir_sans"
+                            android:layout_gravity="start"
+                            android:textSize="12dp"
+                            android:text="0%"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

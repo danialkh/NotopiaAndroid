@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layoutDirection="ltr"
+    android:paddingTop="20dp"
+    android:paddingBottom="25dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    >
+
+
+
+
+
+    <ImageView
+        android:id="@+id/shadow2"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        android:alpha="0.5"
+        android:background="@drawable/taghche_shadow_orginal"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/jelo_taghche" />
+
+
+    <ImageView
+        android:id="@+id/goshe_rast_kaf"
+        android:layout_width="23dp"
+        android:layout_height="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/vasat_kafe"
+        app:layout_constraintEnd_toEndOf="@+id/jelo_taghche"
+        app:layout_constraintTop_toTopOf="@+id/vasat_kafe"
+        app:srcCompat="@drawable/goshe_rast_kaf_taghche_vector" />
+
+    <ImageView
+        android:id="@+id/vasat_kafe"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/goshe_chap_kaf"
+        app:layout_constraintEnd_toStartOf="@+id/goshe_rast_kaf"
+        app:layout_constraintStart_toEndOf="@+id/goshe_chap_kaf"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vasate_kafe_taghche_shape" />
+
+    <ImageView
+        android:id="@+id/goshe_chap_kaf"
+        android:layout_width="23dp"
+        android:layout_height="15dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/jelo_taghche"
+        app:layout_constraintStart_toStartOf="@+id/jelo_taghche"
+        app:srcCompat="@drawable/goshe_chap_kaf_taghche_vector" />
+
+    <ImageView
+        android:id="@+id/jelo_taghche"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jeloye_taghche_vector"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vasat_kafe" />
+
+
+    <ImageView
+        android:id="@+id/fade_chap_RV_blue"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vasat_kafe"
+        app:layout_constraintStart_toStartOf="@+id/goshe_chap_kaf"
+        app:layout_constraintTop_toTopOf="@+id/vasat_kafe"
+        app:srcCompat="@drawable/fade_labe_recycle_blue" />
+
+
+
+    <ImageView
+        android:id="@+id/fade_rast_RV_blue"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:rotation="180"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/vasat_kafe"
+        app:layout_constraintEnd_toEndOf="@+id/goshe_rast_kaf"
+        app:layout_constraintTop_toTopOf="@+id/vasat_kafe"
+        app:srcCompat="@drawable/fade_labe_recycle_blue" />
+
+
+
+    <LinearLayout
+        android:id="@+id/LLTaghche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingEnd="35dp"
+        android:gravity="bottom|center"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/tempSarresid"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_sarresid"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

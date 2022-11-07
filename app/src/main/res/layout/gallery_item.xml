@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp">
+
+    <ir.notopia.android.scanner.opennotescanner.views.SquareFrameLayout
+        android:id="@+id/colorSquare"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/gallery_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+    </ir.notopia.android.scanner.opennotescanner.views.SquareFrameLayout>
+
+    <ImageView
+        android:id="@+id/gallery_image_error"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_error_outline"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/IVCategoryNumber"
+        android:layout_width="16dp"
+        android:layout_height="16sp"
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:src="@drawable/vc_back_number_category"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+    />
+
+
+    <TextView
+        android:id="@+id/TVItemGalleryId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="11sp"
+        android:textColor="@color/colorthemeGray"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/ir_sans"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="@id/IVCategoryNumber"
+        app:layout_constraintBottom_toBottomOf="@id/IVCategoryNumber"
+        app:layout_constraintStart_toStartOf="@id/IVCategoryNumber"
+        app:layout_constraintEnd_toEndOf="@id/IVCategoryNumber"
+        />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cardBackgroundColor="@color/colorthemeTransparent"
+        app:cardCornerRadius="2dp"
+        android:layout_margin="5dp"
+        android:elevation="0dp"
+        app:cardElevation="0dp"
+        >
+
+        <TextView
+            android:id="@+id/TVItemGallerydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1399/02/22"
+            android:textSize="9.5sp"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:textColor="@color/colorthemeGray"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/ir_sans"
+            android:layout_gravity="center"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

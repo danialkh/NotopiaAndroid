@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ful"
+    android:background="@color/colorGraybackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorthemeBlue"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/doc_date_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_calendar"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:gravity="left|center_horizontal"
+
+                android:fontFamily="@font/ir_sans"
+
+                android:text="1398/10/15" />
+
+
+
+            <ImageView
+                android:id="@+id/iconAttach"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_attach_file"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                />
+
+
+            <LinearLayout
+                android:layout_marginEnd="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <Spinner
+                    android:id="@+id/doc_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_category"
+                    android:fontFamily="@font/ir_sans"
+                    android:gravity="center_horizontal"
+                    android:layoutDirection="rtl" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/iconNotonColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_palette"
+                android:text="پیش فرض"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                app:tint="@color/colorGray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tagbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_gravity="top|start"
+            android:layoutDirection="rtl"
+            >
+
+            <com.afollestad.dragselectrecyclerview.DragSelectRecyclerView
+                android:id="@+id/notonTagsRecycleView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:maxLines="1"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+
+            </com.afollestad.dragselectrecyclerview.DragSelectRecyclerView>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:src="@color/colorGrayKmarang"/>
+
+            <ImageView
+                android:id="@+id/iconTag"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                app:tint="@color/colorGray"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:src="@drawable/ic_menu_tag"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/colorGrayKmarang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottombar"
+        android:layout_below="@id/topbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:id="@+id/addPicToNoton"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/IMAddPic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_add_image"
+                    app:tint="@color/colorGrayKmarang"
+                    android:layout_gravity="center|center_vertical"
+
+                    />
+
+                <TextView
+                    android:id="@+id/TVAddPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/ir_sans"
+                    android:text="اضافه کردن تصویر به نوتون"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <include
+            android:id="@+id/layoutImageNoton"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:visibility="gone"
+            layout="@layout/layout_touch_imageview"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:src="@color/disabled_color"
+            />
+
+        <EditText
+            android:id="@+id/notonTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:gravity="top|start"
+            android:padding="5dp"
+            android:background="@drawable/vc_back_noton_title"
+            android:hint="عنوان نوتون"
+            android:layoutDirection="rtl"
+            android:fontFamily="@font/ir_sans"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/disabled_color"
+            />
+
+        <EditText
+            android:id="@+id/notonText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:gravity="top|start"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:hint="متن نوتون..."
+            android:background="@android:color/transparent"
+            android:layoutDirection="rtl"
+            android:fontFamily="@font/ir_sans"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="0dp"-->
+    <!--        android:background="#CC4CAF50">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/image_details"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:text="Category: None    Date:98/08/27" />-->
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/colorthemeBlue"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/doc_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_save"
+            android:gravity="center|center_horizontal"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/doc_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center|center_horizontal"
+            app:tint="@color/black"
+            android:src="@drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/doc_rotate"
+            android:layout_width="10dp"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_rotate"
+            android:gravity="center|center_horizontal"
+            app:tint="@color/black"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</RelativeLayout>

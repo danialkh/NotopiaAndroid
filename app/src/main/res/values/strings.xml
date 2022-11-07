@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">نوتوپیا</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="_1397">1397</string>
+    <string name="title_activity_day">DayActivity</string>
+    <string name="messages">مرکز پیام</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="camera_and_storage">Camera and Storage</string>
+
+
+    <string name="action_example">Example action</string>
+
+    <!--Live Edge Detection-->
+    <string name="camera_activity_permission_denied_toast">Please go to app settings and grant camera permission</string>
+
+    <string name="finding_rect">از پس زمینه تیره استفاده کنید</string>
+    <string name="move_away">فاصله بگیرید</string>
+    <string name="move_closer">نزدیک شوید</string>
+    <string name="adjust_angle">زاویه درست نگه دارید</string>
+    <string name="hold_still">ثابت نگه دارید</string>
+    <string name="capturing">گرفتن عکس</string>
+
+    <!--    OpenNoteScanner     -->
+    <string name="title_activity_open_note_scanner" translatable="false">Open Note Scanner</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_full_image">Scanned Image Viewer</string>
+    <string name="images_scanned">Images Scanned</string>
+    <string name="action_share">اشتراک</string>
+    <string name="action_delete">حذف</string>
+    <string name="confirm_title">حذف تصویر</string>
+    <string name="confirm_title_delete_noton">حذف نوتون</string>
+    <string name="confirm_title_replace_noton">بعضی از نوتون ها تکراری هستند</string>
+    <string name="confirm_replace_notons">میخواهید جایگزین شوند؟</string>
+    <string name="confirm_delete_pic">آیا مطمئن هستید میخواهید این تصویر حذف شود؟</string>
+    <string name="confirm_delete_noton">آیا مطمئن هستید میخواهید این نوتون حذف شود؟</string>
+    <string name="confirm_delete_notons">آیا مطمئن هستید میخواهید نوتون های انتخاب شده حذف شود؟</string>
+    <string name="answer_yes">بله</string>
+    <string name="answer_no">خیر</string>
+    <string name="confirm_delete_multiple_text">Do you want to delete the selected images?</string>
+    <string name="share_snackbar">Share images through</string>
+    <string name="action_about">About</string>
+    <string name="about_filename">about.md</string>
+    <string name="install_opencv">Install OpenCV Manager</string>
+    <string name="confirm_install_opencv">Do you want to download OpenCV Manager from GitHub?</string>
+    <string name="answer_cancel">Cancel</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloading_opencv">Downloading OpenCV Manager</string>
+    <string name="scanningToast">Searching for document\nTap again to scan whole image</string>
+    <string name="colorMode">رنگی</string>
+    <string name="bwMode"><![CDATA[سیاه و سفید]]></string>
+    <string name="autoMode">Automatic Mode</string>
+    <string name="manualMode">Manual Mode</string>
+    <string name="share_app">Share this App</string>
+    <string name="share_app_using">Share link through</string>
+    <string name="share_app_body">"Take a look at this great app that scans notes, drawings and documents through your camera: "</string>
+    <string name="share_app_subject">Great app to scan notes and documents</string>
+    <string name="settings">Settings</string>
+    <string name="basic_settings">Basic Settings</string>
+    <string name="automatic_tagging">Automatic Tagging</string>
+    <string name="automatic_tagging_summary">Define automatic tags to be applied on marked scans using the special page template</string>
+    <string name="match_aspect">Match preview aspect ratio</string>
+    <string name="match_aspect_summary">On several devices the aspect ratio of the preview image does not match the one of the final picture. When turned on, this option will select the highest resolution for the final picture that matches the aspect ratio of the preview image.</string>
+    <string name="bug_rotate">Rotate Image 180º</string>
+    <string name="bug_rotate_summary">Some devices have the camera upside down, this setting adjusts everything to make sense</string>
+    <string name="usage_stats">Usage Statistics</string>
+    <string name="usage_stats_summary">Send various usage statistics to developer. No content data will be sent</string>
+    <string name="send_message">Send Message</string>
+    <string name="send_message_summary">Send message to developer</string>
+    <string name="stats_optin_title">Usage Stats</string>
+    <string name="stats_optin_text">Do you want to enable Open Note Scanner to send anonymous usage statistics to the developer?\n\nYou can change this anytime on the settings screen.</string>
+    <string name="answer_later">Later</string>
+    <string name="ask_install_opencv">In order to work, Open Note Scanner needs the services of OpenCV Manager, which is not installed yet.</string>
+    <string name="googleplay">Google Play</string>
+    <string name="githubdownload">Direct Download</string>
+    <string name="activateunknown">Go to Settings</string>
+    <string name="messageactivateunknown">Google Play isn\'t available and Install from Unknown Sources is disabled, please go to Settings and activate it.</string>
+    <string name="github_project">Project on GitHub</string>
+    <string name="github_project_summary">This application is open source, you can help to improve it with feedback, issue reports, code and translations through the GitHub project\'s page</string>
+    <string name="donate">Buy me a coffee</string>
+    <string name="donate_summary">If you like this application and think it is useful, you may consider making a donation</string>
+    <string name="telegram">Telegram Group</string>
+    <string name="telegram_summary">Chat about the project on Telegram</string>
+    <string name="feedback_and_contributions">Feedback and contributions</string>
+    <string name="bitcoin_summary">Donate using Bitcoin cryptocurrency</string>
+    <string name="dogecoin_summary" translatable="false">Wow, such app, many useful</string>
+    <string name="paypal_summary">Many credit cards accepted</string>
+    <string name="filterModeOn">Image Processor On</string>
+    <string name="filterModeOff">Image Processor Off</string>
+    <string name="action_tag">Tag</string>
+    <string name="storage_folder">Storage Folder</string>
+    <string name="storage_folder_summary">Sets where the scanned files should be stored</string>
+    <string name="save_png">Save to PNG Format</string>
+    <string name="save_png_summary">Save final images to PNG format. Notice that metadata isn\'t supported yet on PNG, so some features will not be available.</string>
+    <string name="format_not_supported">Format not supported</string>
+    <string name="format_not_supported_message">Image format doesn\'t support tagging</string>
+    <string name="resendSms">دریافت مجدد</string>
+
+    <string name="terms"><![CDATA[
+        <p dir="rtl">
+            <b>
+                <font color="blue" size="18dp">
+                    الف) قوانین، مقررات و توافقنامه کاربر نهایی
+                </font>
+            </b>
+            <br><br>
+            <b>
+                تعریف و ماهیت اپلیکیشن نوتوپیا
+            </b>
+            <br>
+            اپلیکیشن نوتوپیا، اپلیکیشن همراهِ نوشت افزارهای "نوتوپیا"، اولین نوشت افزار هوشمند ایران است. در نوشت افزارهای هوشمند نوتوپیا، از طرفی خود نوشت افزار فیزیکی به گونه ای طراحی و تولید گردیده است که بتوان امکاناتی نرم افزاری (ورای امکانات یک نوشت افزار معمول) برای آن تعریف کرد و ثانیا یک نرم افزار تلفن همراه (اپلیکیشن حاضر) به همراه نوشت افزار عرضه می گردد که برای استفاده ترکیبی با نوشت افزارهای فیزیکی نوتوپیا طراحی گردیده و شامل فناوری ها و قابلیتهایی (نظیر هوش مصنوعی) می شود که امکان ارتباط با صفحات نوشت افزارهای نوتوپیا و تعامل با آن ها را برای کاربر فراهم می آورد. امکان اسکن کردن خودکار صفحات و استخراج برخی داده های تعیین شده بوسیله کاربر از جمله این امکانات می باشند.
+            <br><br>
+            <b>
+                چگونگی فعال سازی و استفاده از نرم افزار
+            </b>
+            <br>
+            جهت حفظ حقوق استفاده کنندگان محترم، تمامی محصولات نوشت افزار هوشمند نوتوپیا توسط کد منحصر به فرد برای هر نسخه، با کد فعالسازی محافظت می­شوند که نیاز به فعال‌سازی آن محصول می‌باشد. لازم به تاکید است که طبق سیاست نامه حریم خصوصی نوتوپیا، اطلاعات نحوه مصرف کاربر و محتوای اسکن شده و ذخیره شده از نوشت افزار متعلق به کاربر، در اختیار مجموعه نوتوپیا قرار نمی­گیرد و کد فعال سازی صرفاً جهت احراز اصالت یک نسخه از نوتوپیا می­باشد تا مصرف کننده محترم بتواند با اعتماد کامل بر اصل بودن کالا از امکانات آن استفاده نماید.
+            <br><br>
+            <b>
+                راهنمای فعال سازی
+            </b>
+            <br>
+            جهت انجام فرآیند فعال سازی، پوشش حفاظتی درج شده در صفحات ابتدایی نوشت افزار نوتوپیا را به آرامی بخراشید و کدرمز زیر آن را در قسمت فعال سازی محصول در نرم افزار نوتوپیا وارد نمایید و پس از دریافت پیامک فعال سازی، کد دریافتی را در کادر مربوطه وارد نمایید.
+            <br>
+            <ui>
+                <li>
+                     توجه فرمایید کد محرمانه‌ی درج شده مخصوص همین نسخه بوده و در مراحل بعدی جهت استفاده از خدمات پشتیبانی به آن نیاز دارید پس در حفظ و نگهداری آن دقت بفرمایید و به هیچ عنوان آن را در اختیار افراد دیگر قرار ندهید.
+                </li>
+                <li>
+                     در صورت مخدوش بودن بخش کد محرمانه و غیرقابل تشخیص بودن کد به آدرس وبسایت www.notopia.ir مراجعه نموده و در قسمت پشتیبانی نسبت به فعال سازی با کارشناسان ما تماس بگیرید.
+                </li>
+                <li>
+                     دقت بفرمایید در فرآیند فعال سازی و پس از آن هیچ گونه تماسی از طرف مجموعه نوتوپیا یا هر اسم مشابه ای با شما گرفته نخواهد شد و نیاز به هیچگونه پرداختی نمی¬باشد. در صورت مواجه با هرگونه تماس مبنی بر پرداخت وجه یا ارائه اطلاعات شخصی از ادامه مکالمه خودداری نموده و مراتب را با مراجع ذیصلاح در میان بگذارید.
+                </li>
+            </ui>
+            <br>
+            <b>
+                محدودیت نصب و فعال سازی
+            </b>
+            <br>
+            هر کاربر نوتوپیا با استفاده از کد فعال سازی محصول می تواند اپلیکیشن نوتوپیا را نهایتا بر روی سه دستگاه (شامل گوشی و تبلت) فعال نموده و مورد استفاده قرار دهد. البته، تعداد دفعات فعال سازی و استفاده از اپلیکیشن نوتوپیا بر روی هر یک از این سه دستگاه نامحدود خواهد بود.
+            <br><br>
+            <b>
+                تعهدات فنی کاربر
+            </b>
+            <ui>
+                <li>
+                     مسئولیت محتوای نوشته شده بر روی نوشت افزارهای نوتویا و نیز محتوای اسکن شده و ذخیره شده توسط کاربر به طور کامل بر عهده وی بوده و شرکت هوشمند آرمان هماره به عنوان تولید کننده نوتوپیا در این رابطه هیچ مسئولیتی را بر عهده نخواهد گرفت.
+                </li>
+                <li>
+                     کاربران محترم حق ندارند تلاشی در جهت استخراج Source Code نظیر دیکامپایل یا مهندسی معکوس کد انجام دهند.
+                </li>
+                <li>
+                     کاربران محترم اجازه ندارند هیچ فعالیتی در جهت دسترسی غیر قانونی به هیچ بخشی از اپلیکیشن نوتوپیا یا سایر منابع یا سامانه های مرتبط به آن انجام دهند.
+                </li>
+            </ui>
+            <br><br>
+            <b>
+                پشتیبانی
+            </b>
+            <br>
+            استفاده از خدمات پشتیبانی نوتوپیا در حال حاضر بروی سایت نوتوپیا به آدرس https://www.notopia.ir فعال گردیده و به صورت امکان تیکت گذاری در بخش پشتیبانی سایت قابل استفاده می باشد.
+            <br><br>
+            <b>
+                <font color="blue" size="18dp">
+                    ب) سیاست نامه حریم خصوصی
+                </font>
+            </b>
+            <br><br>
+            <b>
+                جمع آوری و استفاده از اطلاعات
+            </b>
+            <br>
+            برای ایجاد یک تجربه بهتر و سریعتر در استفاده از خدمات اپلیکیشن نوتوپیا، ما صرفا حداقل اطلاعاتی که برای احراز هویت، نگهداری پروفایل کاربری و کار با نرم افزار ضروری می دانیم (مثل نام و شماره موبایل) و توسط خود کاربر وارد شده است را جمع‌آوری و برای ارائه برخی از خدمات از آنها استفاده می‌کنیم.
+            <br>
+            همچنین با توجه به اسکن تصاویر نوشت افزار توسط اپلیکیشن، تصاویر اسکن شده از صفحات نوشت افزارها، به هیچ وجه مورد استفاده دیگری خارج از اپلیکیشن قرار نگرفته و در هیچ مکانی جز به دلخواه و توسط خود کاربر بارگذاری یا ارسال نخواهد شد.
+            <br><br>
+            <b>
+                مجوزها
+            </b>
+            <br>
+            <ui>
+                <li>
+                    <b>
+                        دوربین
+                    </b>
+                    <br>
+                    در برخی از خدمات اپلیکیشن مثل امکان واقعیت افزوده و نیز امکان اسکن کردن صفحات نوشت افزارهای نوتوپیا، برای فعال سازی دوربین برای اسکن کردن یک تصویر (واقعیت افزوده مثل ویدئو) یا عکس گرفتن از یک صفحه برای ذخیره درست و انجام پردازش تصویر روی آن این دسترسی مورد استفاده قرار می گیرد.
+                </li>
+                <li>
+                    <b>
+                        دسترسی به حافظه
+                    </b>
+                    <br>
+                    برای ذخیره سازی نوت های اسکن شده (نوتون) و دسترسی به آنها و همچنین برای دسترسی به تصاویر و اِلِمان های واقعیت افزوده ذخیره شده، این دسترسی مورد استفاده قرار می گیرد.
+                </li>
+                <li>
+                    <b>
+                        دسترسی به تقویم
+                    </b>
+                    <br>
+                    با توجه به قرارگیری عناصر روز و ماه در طراحی صفحات نوشت افزارهای نوتوپیا و پشتیبانی نرم افزار از تشخیص هوشمند تاریخ تعیین شده به وسیله کاربر در صفحات نوشت افزار، این اپلیکیشن به مجوز دسترسی به تقویم نیاز دارد تا بتواند موارد اسکن شده را بر اساس تاریخ درج شده در آن ها در محل مناسب از تقویم ذخیره کرده و بر اساس بازه زمانی انتخابی توسط کاربر مورد جستجو قرار دهد.
+                </li>
+                <li>
+                    <b>
+                        دسترسی خواندن وضعیت گوشی
+                    </b>
+                    <br>
+                    به منظور پشتیبانی از قاعده " محدودیت نصب و فعال سازی" ذکر شده در بخش الف از این سند (توافقنامه کاربر نهایی)، نیاز به دسترسی خواندن وضعیت گوشی وجود دارد تا با بررسی کد مختص هر دستگاه (IMEI) اطمینان حاصل شود که یک کد فعال سازی محصول نوتوپیا می تواند تا 3 دستگاه تلفن همراه مستقل و متفاوت را پشتیبانی نماید.
+                </li>
+                <li>
+                    <b>
+                        دسترسی اینترنت
+                    </b>
+                    <br>
+                    اپلیکیشن نوتوپیا برای دلایل متعددی نظیر تایید و ثبت کاربر با پیامک، تایید و احراز درستی کد محصول با استفاده از پیامک و دریافت فایل های مربوط به بخش واقعیت افزوده در زمان اجرا نیاز به مجوز دسترسی به اینترنت دارد.
+                </li>
+            </ui>
+        </p>
+
+
+]]>
+
+    </string>
+    <string name="errorTerms">کاربر گرامی برای ادامه ثبت نام / ورود سیاست نامه ی حریم خصوصی مطالعه نمونه را بپذیرید</string>
+
+    <string name="about"><![CDATA[
+سال‌ها آن‌گونه نوشته‌ایم که پدرانمان نوشته‌اند و آن‌ها نیز آن‌گونه نگاشته‌اند که پدرانشان. فرزاندمان نیز در نوشتن، ارثی تکراری برده‌اند. اما اکنون در پی تجربه کردن سبکی نو از نوشتنیم. نوشتنی که به نوشتن محدود نمی‌شود.
+<br/>
+نوتوپیـا، یک مدل مفهومی جدید از نوشت‌افزار است که کوشیده با همراه نمودن انواعی از فناوری (هوش مصنوعی، واقعیت افزوده، ذخیره‌سازی ابری، نرم‌افزار تلفن همراه و ...)
+<br/>
+با گونه‌های مختلف نوشت‌افزار، تعریف جدیدی از این مفهوم ارایه نماید که از سویی به افزایش قابلیت‌ها و امکانات نوشت‌افزارهای مختلف منجر شود و از سویی دیگر به بهبود کارایی در روش استفاده و نیز رشد بهره‌وری استفاده‌کنندگان از آن بیانجامد.
+<br/>
+نوتوپیـا که اولین نوشت‌افزار هوشمند ایرانی است از دو بخش نوت (یادداشت) و اتوپیا (آرمان شهر، مدینه فاضله)
+<br/>
+تشکیل شده است که در کنار هم بیانگر آرمان شهری برای نوشتن می‌باشد.
+<br/>
+نوتوپیـا نوشت‌افزاری که نه تنها خوانده می‌شود، بلکه خود می‌خواند، می‌نوازد، می‌گوید، می‌جوید، می‌فهمد، می‌اندوزد، به یاد می‌آورد!
+
+]]>
+</string>
+    <string name="checkBoxMatn">
+
+    <![CDATA[
+        <font color="#0099CC">
+        قوانین ، مقررات و سیاست نامه ی حریم خصوصی
+        </font>
+        را قبول دارم
+    ]]>
+</string>
+    <string name="support">
+    <![CDATA[
+        <p dir="rtl">
+            کاربر عزیز:
+            <br/>
+            ۱- قبل از هر چیز از اینکه از نوتوپیا استفاده می کنید صمیمانه از شما ممنونیم. استفاده شما از نوتوپیا برای ما خیلی ارزشمنده.
+            <br/>
+            ۲- اگه درباره فرآیند نصب، راه اندازی و استفاده از اپلیکیشن نوتوپیا سوالی داشتید که نتونستید تو راهنماها پیداش کنید یا به مشکلی برخورد کردید، لطفا تشریف بیارید به سایت
+            <a href="www.notopia.ir">www.notopia.ir</a>
+            و تو بخش پشتیبانی با ثبت کردن تیکت، از هم راهی کارشناسای ما برخوردار بشید.
+
+            <br/>
+            ۳-  علاوه بر اون، اگه تو شرایط خاص به این جمع بندی رسیدید که بهتره با یه نفر از کارشناسهای ما صحبت شفاهی داشته باشید، اولا این افتخار برای ماست که صدای شما رو بشنویم و ثانیا می تونید تو زمان هایی که تو بخش پشتیبانی سایت مشخص شده و با شماره تلفنی که همونجا اعلام شده با ما تماس بگیرید تا با کمال میل در خدمتتون باشیم.
+            <br/>
+            ۴- تیم نوتوپیا ایده های بیشتری نسبت به اونچه که تو نسخه فعلی دیده میشه، داره و سعی میکنه آروم آروم، تو قدمهای بعدی و با بروز رسانی های پیش رو، اون ها رو به نوتوپیا اضافه کنه.
+            <br/>
+            اما، اگه شما هم تو کار با نوتوپیا نکته ها یا بخصوص ایده هایی داشته باشید که کمک کنه که نوتوپیا در هر قدم بعدی، بهتر و کاربردی تر بشه، خیلی زیاد ممنون میشیم که به ما بازخورد بدید و اگه دوست داشتید اونا رو با ما در میون بذارید تا اگه بتونیم با اجرای اونها تجربه بهتری برای شما و استفاده کننده های بعدی رقم بزنیم.
+            <br/>
+            ما واقعا ایمان داریم که خلاقیت انتها نداره و باورمون اینه که تعداد فکرهای بیشتر، خلاقیت های عمیق تری به همراه میاره. به همین خاطر خیلی جدی منتظرتون هستیم.
+         </p>
+    ]]>
+</string>
+
+
+
+</resources>

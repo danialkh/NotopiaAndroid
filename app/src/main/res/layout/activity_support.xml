@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.SupportActivity">
+
+
+
+    <ImageView
+        android:src="@drawable/back_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ImageView
+        android:id="@+id/img_back_topsheet"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_back_topsheet" />
+
+    <ImageView
+        android:id="@+id/line_topSheet"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_back_topsheet"
+        app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+    <ImageView
+        android:id="@+id/IVLogoText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vc_logo_text_notopia"
+        app:layout_constraintBottom_toBottomOf="@id/img_back_topsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_back_topsheet"
+        app:tint="@color/colorthemeBluePorang" />
+
+
+
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back_topsheet"
+        app:layout_constraintStart_toStartOf="@id/img_back_topsheet"
+        app:layout_constraintTop_toTopOf="@+id/img_back_topsheet"
+        app:srcCompat="@drawable/arrow_back" />
+
+
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/vc_back_terms"
+            app:layout_constraintTop_toBottomOf="@id/line_topSheet">
+
+            <TextView
+                android:id="@+id/TVSupport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ir_sans"
+                android:justificationMode="inter_word"
+                android:singleLine="false"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+
+                />
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

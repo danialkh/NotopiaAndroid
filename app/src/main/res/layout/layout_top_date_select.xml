@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorthemeBluePorang"
+    >
+
+    <ImageView
+        android:id="@+id/IVNextMonthFilterCalender"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_last_arrow" />
+
+    <ImageView
+        android:id="@+id/IVLastMonthFilterCalender"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/IVNextMonthFilterCalender"
+        app:srcCompat="@drawable/icon_next_arrow" />
+
+
+
+
+        <TextView
+            android:id="@+id/TVGoToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vc_back_top_label_date"
+            app:backgroundTint="@color/white"
+            android:paddingStart="12dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="2dp"
+            android:fontFamily="@font/ir_sans"
+            android:text="برو به امروز"
+            android:textColor="@color/colorGray"
+            android:textSize="12sp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintTop_toTopOf="@+id/IVNextMonthFilterCalender"
+            app:layout_constraintEnd_toStartOf="@id/IVLastMonthFilterCalender"
+
+            />
+
+        <TextView
+            android:id="@+id/Lbael_month_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vc_back_top_label_date"
+            app:backgroundTint="@color/white"
+            android:paddingStart="12dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="2dp"
+            android:fontFamily="@font/ir_sans"
+            android:text="فروردین 1398 "
+            android:textColor="@color/colorGray"
+            android:textSize="12sp"
+            android:layout_marginStart="40dp"
+            app:layout_constraintTop_toTopOf="@+id/IVNextMonthFilterCalender"
+            app:layout_constraintStart_toEndOf="@id/IVNextMonthFilterCalender"
+
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

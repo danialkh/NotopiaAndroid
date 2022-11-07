@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorToday">#eb6e3d</color>
+    <color name="colorToolbar">#ffac1d</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorthemeGray">#353535</color>
+    <color name="colorthemeBlue">#FFEF8C</color>
+    <color name="colorthemeBlueKamrang">#FFF8CB</color>
+    <color name="colortheme2Transparent">#E6FFEF8C</color>
+    <color name="colorthemeTransparent">#E6FFFD91</color>
+    <color name="colorthemeBluePorang">#DDB800</color>
+    <color name="colorGray">#373737</color>
+    <color name="colorGraykheiliKmarang">#F1F1F1</color>
+    <color name="colorGraybackground">#FBFBFB</color>
+
+
+    <color name="darkKamrang">#FFF</color>
+
+    <color name="colorAccent2">#FF4081</color>
+
+
+    <color name="colorBlackFortyPercentAlpha">#66000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#ff2600</color>
+    <color name="green">#26d84c</color>
+    <color name="blue">#0FFAC2</color>
+    <color name="yellow">#FAE739</color>
+    <color name="defaultColor">#FFFDEA</color>
+    <color name="black">#000</color>
+
+    <color name= "orange">#ff9c00</color>
+    <color name="edge_color">#FE0000</color>
+    <color name="crop_color">#FE0000</color>
+
+    <color name="colorBlackThirtyFivePercentAlpha">#59000000</color>
+
+    <color name="MyThemeColor">#FFE647</color>
+    <color name="MySecondThemeColor">#EFC135</color>
+    <color name="MyThirdThemeColor">#FFF</color>
+    <color name="TaghvimIconColor">#DDB900</color>
+    <color name="MyFourthThemeColor">#E2E2E2</color>
+
+
+
+
+    <!-- noton background color -->
+    <color name="notonRed">#FFAE9F</color>
+    <color name="notonGreen">#BEF8CA</color>
+    <color name="notonBlue">#B2F4E5</color>
+    <color name="notonPink">#F4C5F4</color>
+    <color name="notonDefaultColor">#FFFDB6</color>
+
+
+
+
+    <!--//// peyman color -->
+    <color name="colorzard">#BDA210</color>
+    <color name="colorzardbtn">#F3D73F</color>
+    <color name="backcard">#333E48</color>
+    <color name="whiter">#CDFFFFFF</color>
+    <color name="notebackgroundcolor">#0A0E11</color>
+    <color name="navigationbackcolor">#CC0A0E11</color>
+    <color name="error">#8E0317</color>
+    <color name="colorGrayKmarang">#8E8E8E</color>
+
+    <color name="colorGrayPorang">#4E4E4E</color>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.madgag:scpkix-jdk15on:1.47.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.madgag/scpkix-jdk15on/1.47.0.1/f73d7c846609903fc93fd41c60fa32f9f8c333a8/scpkix-jdk15on-1.47.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.madgag/scpkix-jdk15on/1.47.0.1/d82266e9adc6225683bbcb0473506879617e2c5/scpkix-jdk15on-1.47.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.madgag/scpkix-jdk15on/1.47.0.1/ca23af675d8e25927a708bb0343bdccb9a745c4a/scpkix-jdk15on-1.47.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

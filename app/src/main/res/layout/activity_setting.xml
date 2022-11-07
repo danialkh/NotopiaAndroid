@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.SettingActivity">
+
+
+    <ImageView
+        android:src="@drawable/back_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ImageView
+        android:id="@+id/img_back_topsheet"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vc_back_topsheet" />
+
+    <ImageView
+        android:id="@+id/line_topSheet"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_back_topsheet"
+        app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+    <ImageView
+        android:id="@+id/IVLogoText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vc_logo_text_notopia"
+        app:layout_constraintBottom_toBottomOf="@id/img_back_topsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_back_topsheet"
+        app:tint="@color/colorthemeBluePorang" />
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back_topsheet"
+        app:layout_constraintStart_toStartOf="@id/img_back_topsheet"
+        app:layout_constraintTop_toTopOf="@+id/img_back_topsheet"
+        app:srcCompat="@drawable/arrow_back" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line_topSheet">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LLEditCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layoutDirection="rtl"
+
+                >
+
+                <TextView
+                    android:id="@+id/CategoryTextEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="نمایش راهنمای تصویر برداری"
+                    android:fontFamily="@font/ir_sans"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/btnHelpScanSwitch"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layoutDirection="rtl"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="فایل 9ot شامل فایل های پیوست باشد"
+                    android:fontFamily="@font/ir_sans"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/btnIncludeAttachSwitch"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:srcCompat="@drawable/vc_img_line_seprator" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layoutDirection="rtl"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="فایل backup شامل فایل های پیوست باشد"
+                    android:fontFamily="@font/ir_sans"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/btnIncludeAttachBackupSwitch"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

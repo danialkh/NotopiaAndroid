@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/colorGraybackground"
+    tools:context=".MainActivity">
+    <include layout="@layout/home"  />
+
+    <ImageView
+        android:id="@+id/img_darkness"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/vc_darkness"
+        android:alpha="0"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom_sheet"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="380dp"
+        app:behavior_peekHeight="115dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="8dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:behavior_hideable="true"
+        android:clickable="true"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        android:focusable="true">
+
+        <include layout="@layout/layuot_bottomsheet" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_floating_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:fabCustomSize="45dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="131dp"
+        android:backgroundTint="@color/colorthemeBlue"
+        android:src="@drawable/plus_icon"
+        app:borderWidth="0dp"
+
+    />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/filter_floating_btn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:fabCustomSize="36dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="131dp"
+        android:backgroundTint="@color/colorthemeBluePorang"
+        app:tint="@color/white"
+        android:src="@drawable/icon_filtters"
+        app:borderWidth="0dp"
+        />
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

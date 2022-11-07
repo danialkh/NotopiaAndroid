@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_gradient"
+    tools:context=".noton.AttachActivity">
+
+
+    <com.afollestad.dragselectrecyclerview.DragSelectRecyclerView
+        android:id="@+id/recyclerviewAttachment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_top_bar_activities"
+            android:layout_gravity="top|start"
+            />
+
+
+
+
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/add_floating_attach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            app:menu_fab_size="normal"
+            app:menu_showShadow="true"
+            app:menu_shadowColor="#66000000"
+            app:menu_shadowRadius="4dp"
+            app:menu_shadowXOffset="1dp"
+            app:menu_shadowYOffset="3dp"
+            app:menu_colorNormal="@color/colorthemeBlue"
+            app:menu_colorPressed="@color/colorthemeBlueKamrang"
+            app:menu_colorRipple="@color/colorGray"
+            app:menu_animationDelayPerItem="50"
+            app:menu_icon="@drawable/ic_attach_file"
+            app:menu_buttonSpacing="0dp"
+            app:menu_labels_margin="0dp"
+            app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            app:menu_labels_paddingTop="4dp"
+            app:menu_labels_paddingRight="8dp"
+            app:menu_labels_paddingBottom="4dp"
+            app:menu_labels_paddingLeft="8dp"
+            app:menu_labels_padding="8dp"
+            app:menu_labels_textColor="#FFFFFF"
+            app:menu_labels_textSize="14sp"
+            app:menu_labels_cornerRadius="3dp"
+            app:menu_labels_colorNormal="#333333"
+            app:menu_labels_colorPressed="#444444"
+            app:menu_labels_colorRipple="#66FFFFFF"
+            app:menu_labels_showShadow="true"
+            app:menu_labels_singleLine="false"
+            app:menu_labels_ellipsize="none"
+            app:menu_labels_maxLines="-1"
+            app:menu_labels_position="left"
+            app:menu_openDirection="up"
+            app:menu_backgroundColor="@android:color/transparent"
+            app:menu_fab_label="پیوست جدید"
+            app:menu_fab_show_animation="@anim/scale_down"
+            app:menu_fab_hide_animation="@anim/scale_up">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/FloatingAction_item_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gallery"
+                app:fab_colorNormal="@color/colorthemeBlueKamrang"
+                app:fab_colorPressed="@color/colortheme2Transparent"
+                app:tint="@color/colorGray"
+                app:fab_size="mini"
+                app:fab_label="تصویر" />
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/FloatingAction_item_doc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_document"
+                app:fab_colorNormal="@color/colorthemeBlueKamrang"
+                app:fab_colorPressed="@color/colortheme2Transparent"
+                app:tint="@color/colorGray"
+                app:fab_size="mini"
+                app:fab_label="سند" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/FloatingAction_item_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_video"
+                app:fab_colorNormal="@color/colorthemeBlueKamrang"
+                app:fab_colorPressed="@color/colortheme2Transparent"
+                app:tint="@color/colorGray"
+                app:fab_size="mini"
+                app:fab_label="ویدیو" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/FloatingAction_item_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_audio"
+                app:fab_colorNormal="@color/colorthemeBlueKamrang"
+                app:fab_colorPressed="@color/colortheme2Transparent"
+                app:tint="@color/colorGray"
+                app:fab_size="mini"
+                app:fab_label="صوت" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
